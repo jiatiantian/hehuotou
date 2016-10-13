@@ -1,0 +1,279 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.clear{
+	clear: both;
+}
+
+.floatl{
+	float: left;
+}
+
+.floatr{
+	float: right;
+}
+
+header{
+	width: 1000px;
+	height: 120px;
+	margin: 0 auto;	
+}
+
+.logo{
+	width: 237px;
+	height: 86px;
+	margin-top: 10px;
+}
+
+.find{
+	width: 420px;
+	height: 45px;
+	margin-top: 40px;
+}
+
+.find select{
+	width: 75px;
+	height: 45px;
+	font-size: 18px;
+	border: solid 1px #ccc;
+	border-right: none;
+	float: left;
+}
+
+.find input{
+	width:240px;
+	height: 43px;
+	border: solid 1px #ccc;
+	border-left: none;
+	float: left;
+}
+
+.find span{
+	display: inline-block;
+	width: 76px;
+	height: 43px;
+	float: left;
+	border: solid 1px #ccc;
+}
+
+.title{
+	width: 100%;
+	height: 75px;
+	background-color: #FDFDFD;
+	border-bottom: solid 4px #959595; 
+	box-shadow: 5px 5px 5px 5px #ccc;
+}
+
+.title .intitle{
+	width: 1000px;
+	height: 75px;
+	margin: 0 auto;
+}
+
+.title .intitle .ul-1 li{
+    display: inline-block;
+    line-height: 75px;
+    margin-left: 10px;
+    margin-right: 10px;
+	font-size: 20px;
+
+}
+
+.title .intitle .ul-2 li{
+	display: inline-block;
+    line-height: 75px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.link{
+	margin: 40px auto;
+	width: 1100px;
+	height: 80px;
+}
+
+.link div,
+.link ul{
+	width: 1100px;
+	height: 47px;
+	margin: auto 0;
+}
+
+.link ul{
+	margin-left: 50px;
+}
+
+.link div ul li{
+	display: inline-block;
+	width: 260px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.link div ul li .number{
+	display: inline-block;
+	line-height: 60px;
+	font-weight: bold;
+	font-size: 28px;
+	color: #fff;
+}
+.steps li{float:left;}
+.step1,.step2,.step3,.step4{ background:url(../img/step.png) no-repeat; width:269px;height:50px; display:inline-block; font-size:16px; text-align:center; line-height:50px; font-weight:bold;}
+.step1{ background-position:left top;color:white;position:relative; z-index:10000;}
+.step2{ background-position:left -50px; color:black; margin-left:-30px;position:relative; z-index:9999;}
+.step3{background-position:left -50px; color:black; margin-left:-30px;position:relative; z-index:999;}
+.step4{background-position:left -50px; color:black;margin-left:-30px;}
+
+
+.form{
+	width: 995px;
+	border: solid 2px #D8D8D8;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: #F7F7F7;
+	margin-bottom: 60px;
+}
+
+.form .img{
+	width: 436px;
+	height: 278px;
+	margin: 20px;
+	float: right;
+}
+
+.form dd,.form dt{
+	float: left;
+	display: inline-block;
+}
+
+.form span{
+	display: inline-block;
+	width: 100px;
+	height: 32px;
+	font-size: 18px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.form .money{
+	width: 20px;
+	color: #ccc;
+}
+
+.form input[type="text"]{
+	width: 300px;
+	height: 23px;
+	border:solid #ccc 2px;
+	margin-top: 20px;
+}
+
+.form select{
+	width: 80px;
+	height: 23px;
+	border: solid 2px #ccc; 
+}
+
+.form ul{
+	display: inline-block;
+}
+
+.form ul li{
+	display: inline-block;
+	width: 30px;
+	height: 23px;
+	border: solid 2px #ccc; 
+	margin-top: 20px;
+	margin-right: 10px;
+	font-size: 10px;
+}
+
+.form .text{
+	position: relative;
+	top: -130px;
+}
+
+.form textarea{
+	width: 700px;
+	height: 150px;
+	border: solid 2px #ccc;
+	margin-top: 20px;
+}
+
+.form p{
+	text-align: center;
+	font-size: 16px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #ccc;
+}
+
+.form p a{
+	text-decoration: none;
+	color: #A9DF52;
+}
+
+.form .cancle{
+	margin-left:370px ;
+	width:94px;
+	height: 44px;
+	border: none;
+	background-color: #8E8E8F;
+	border-radius: 20px;
+	margin-bottom: 20px;
+	color: #fff;
+	font-size: 20px;
+}
+
+.form .submit{
+	margin-left: 20px;
+	width: 94px;
+	height: 44px;
+	border: none;
+	border-radius: 20px;
+	background-color: #9DDC2A;
+	margin-bottom: 20px;
+	color: #fff;
+	font-size: 20px;
+}
+
+
+.parteners{
+	width: 100%;
+	background-color: #F3F4F6;
+}
+
+.parteners h4{
+	padding: 5px;
+	text-align: center;
+}
+
+.parteners .links{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.parteners .links img{
+	margin-left: 10px;
+}
+
+/* footer */
+
+.footer{
+	width: 100%;
+	height: 95px;
+	background-color: #333333;
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+	padding-top:40px; 
+}
+
+.footer a{
+	color:  #fff;
+	text-decoration: none;
+	font-size: 16px;
+}
